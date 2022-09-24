@@ -132,11 +132,11 @@ a.meanmenu-reveal{display:none}
   background: #fff;
 }
 .mean-container .mean-bar::before {
-	color: #fff;
-	content: "Dreamit";
+	/* color: rgb(0, 0, 0);
+	content: "Jouha";
 	font-size: 22px;
 	font-weight: 800;
 	left: 10px;
 	position: absolute;
-	top: 18px;
+	top: 18px; */
 }
