@@ -101,7 +101,8 @@ Version: 0.1
  dreamit Main Menu Area Css
 ==============================*/
 .dreamit_nav_manu {
-    background: #fff;
+    background: #030749;
+    /* background: #333; */
     z-index: 1;
 }
 .dreamit_nav_manu.transparent_menu {
@@ -117,9 +118,11 @@ Version: 0.1
     width: 100%;
     -webkit-box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.1);
-    background: #fff !important;
+    /* background: #fff !important; */
+    background: #030749 !important;
     transition: .5s;
     z-index: 999 !important;
+    color: #fff !important;
 }
 .style-two.dreamit_nav_manu {
     background: none;
@@ -182,10 +185,12 @@ Version: 0.1
     -o-transition: .5s;
     transition: .5s;
     position: relative;
-    color: #232323;
+    /* color: #232323; */
+    color: #fff;
     font-size: 18px;
     font-weight: 600;
-    background: linear-gradient( to right, #FC9615, #FC9615, 50%, #232323 50%);
+    /* background: linear-gradient( to right, #FC9615, #FC9615, 50%, #232323 50%); */
+    background: linear-gradient( to right, #FC9615, #FC9615, 50%, #ffff 50%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-size: 200%, 100%;
@@ -248,7 +253,8 @@ nav.dreamit_menu span {
     text-transform: capitalize;
     transition: .1s;
     visibility: inherit !important;
-    color: #616161;
+    /* color: #616161; */
+    color: #fff !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.10);
 }
 .dreamit_menu ul .sub-menu li:hover>a,
@@ -312,7 +318,8 @@ nav.dreamit_menu span {
     display: inline-block;
     float: right;
     margin-top: 16px;
-    marbackground: #fc9615;gin-left: 20px;
+    background: #fc9615;
+    margin-left: 20px;
 }
 .header-button .dtbtn {
     position: relative;
@@ -737,7 +744,7 @@ button.close-search i {
 <!-- ============================================================== -->*/
 .slider1.slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider.jpg);
+    background: url(assets/images/delivery/aaron-doucett-E1_tHPWpsqI-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -745,7 +752,7 @@ button.close-search i {
 }
 .slider2.slider-area {
     height: 750px;
-    background: url(assets/images/slider/slider.jpg);
+    background: url(assets/images/delivery/aaron-doucett-E1_tHPWpsqI-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -778,15 +785,20 @@ button.close-search i {
     animation: 1s 2s fadeInUp both;
 }
 .slider-content h1 {
+    text-align: left;
     font-size: 60px;
     margin-top: 0;
-    color: #fff;
+    /* color: #fff; */
+    color: #030749;
     animation: 1s 2s fadeInUp both;
 }
 .slider-content p {
+    font-weight: 600;
+    text-align: left;
     font-size: 17px;
     margin: 20px 0 20px;
-    color: #fff;
+    /* color: #fff; */
+     color: #030749;
     width: 55%;
     animation: 1s 2s fadeInLeft both;
 }
@@ -2492,7 +2504,8 @@ span.bottom-m {
 }
 .testimonial-thumb img {
     border-radius: 50%;
-    width: 90px;
+    width: 50px;
+    height: 7vh;
 }
 .testi-titile h2 {
     font-size: 18px;
@@ -3731,8 +3744,9 @@ p.text-st {
 <!-- dreamit - Breatcome Area Css -->
 <!-- ============================================================== -->*/
 .breatcumb-area {
+    /* height: 4vh; */
     padding: 215px 0 143px;
-    background: #f1f6fc url(assets/images/contact-header.jpg);
+    background: #f1f6fc url(assets/images/delivery/maarten-van-den-heuvel-KSQgzzn3dW0-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -4024,11 +4038,14 @@ textarea:focus {
 --< dreamit subscribe Area Css -->
 ======================================================*/
 .subscribe-area {
-    background: url(assets/images/shape/subscribe.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background: url(assets/images/shape/subscribe.jpg); */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     padding: 97px 0 95px;
+    margin: 0 auto;    
+    align-items: center;
+    /* width: 60%; */
 }
 .row.subscribe-color {
     border-style: solid;
@@ -4106,7 +4123,7 @@ form#contact_form {
 --<	dreamit Footer Middle Area Css -->
 ======================================================*/
 .footer-middle {
-    background: #111a3a;
+    background: #030749;
     padding: 82px 0 33px;
 }
 .dreamit-logo img {
