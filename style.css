@@ -43,8 +43,11 @@ Version: 0.1
 /* .player{
     margin: 0 auto;
     justify-content: center;
-    align-items: center;
+    align-items: center;{
 } */
+#logistics-hidden{
+    /* visibility: hidden; */
+}
 .contact-form{
     width: 60%;
     margin-left: 20%;
@@ -309,12 +312,12 @@ nav.dreamit_menu span {
     display: inline-block;
     float: right;
     margin-top: 16px;
-    margin-left: 20px;
+    marbackground: #fc9615;gin-left: 20px;
 }
 .header-button .dtbtn {
     position: relative;
     z-index: 1;
-    background: #fc9615;
+    
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -1868,7 +1871,8 @@ a.slider-button2:hover:after {
 --< dreamit pricing area Css -->
 ======================================================*/
 .pricing-area {
-    background: url(assets/images/resource/pricing.jpg);
+    /* background: url(assets/images/resource/pricing.jpg); */
+    background: #030749;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -3728,7 +3732,7 @@ p.text-st {
 <!-- ============================================================== -->*/
 .breatcumb-area {
     padding: 215px 0 143px;
-    background: #f1f6fc url(assets/images/resource/case.jpg);
+    background: #f1f6fc url(assets/images/contact-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;

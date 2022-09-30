@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <div class="main" style="background: #fc9615; height: 14vh;">
+                <a href="index.html">
+                    <img src="./assets/images/logo-j-modified.png" style="width: 80px; " alt="">
+                </a>
+            </div>
+            <div class="nav">
+                <button class="btn btn1" id="btns1" style="color: #fc9615;" onclick="showLogin()">Create your
+                    profile</button>
+                <button class="btn btn2" id="btns2" style="color: #fc9615;" onclick="showSignup()">Login</button>
+            </div>
+            <div class="main">
+                <form id="login" class="loginClass">
+                    <input type="email" id="email" placeholder="Email" required><br>
+                    <input type="text" id="username" placeholder="Full name" required><br>
+                    <input type="text" id="username" placeholder="Phone number" required><br>
+                    <p style="width: 85%; color:#cdb4db;">Please leave a valid cell phone number and request a call/SMS. You will then receive a
+                        confirmation call/text on your cell phone.</p>
+                    <!-- <input type="password" id="password" placeholder="Password" required><br> -->
+                    <button type="submit" class="signBtn">CREATE ACCOUNT</button>
+                </form>
+                <form id="signUp" class="signupClass">
+                    <input type="text" id="username" placeholder="Username" required><br>
+                    <input type="password" id="password" placeholder="Password"><br>
+                    <!-- <div class="enquire">
+                        <a href="#"><input type="checkbox" id="remember" style="color:#a1a1a1;">Remember me</a>
+                        <a href="#" style="color:#a1a1a1;">Forgot password?</a>
+                    </div><br> -->
+                    <button class="subBtn" type="submit">LOGIN</button><br>
+                    <a href="#" onclick="showLogin()" style="color:#cdb4db;">Don't have an account? Sign Up</a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="content">
+    <div class="container">
+        <div class="nav">
+            <button class="btn btn1" id="btns1" onclick="showLogin()">Login</button>
+            <button class="btn btn2" id="btns2" onclick="showSignup()">Sign Up</button>
+        </div>
+        <div class="main">
+            <form id="login" class="loginClass">
+                <input type="text" id="username" placeholder="Username" required><br>
+                <input type="password" id="password" placeholder="Password"><br>
+                <div class="enquire">
+                    <a href="#"><input type="checkbox" id="remember">Remember me</a>
+                    <a href="#">Forgot password?</a>
+                </div><br>
+                <button class="subBtn" type="submit">LOGIN</button><br>
+                <a href="#" onclick="showSignup()">No Account? Create one</a>
+            </form>
+            <form id="signUp" class="signupClass">
+                <input type="email" id="email" placeholder="Email" required><br>
+                <input type="text" id="username" placeholder="Username" required><br>
+                <input type="password" id="password" placeholder="Password" required><br>
+                <button type="submit" class="signBtn">CREATE ACCOUNT</button>
+            </form>
+        </div>
+    </div>
+</div> -->
+    <script src="./register.js"></script>
+</body>
+
+</html>
