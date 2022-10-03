@@ -42,11 +42,25 @@
 
     <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
     <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
+
 <body>
+    <!-- Start scrollup section Area -->
     <!--==================================================-->
+    <!--==================================================-->
+    <div class="col-lg-12 col-md-4 right-side lang"
+        style=" width: 25%; position: fixed; z-index: 9999; width: 100px; line-height: 2;">
+        <ul class="langWrap">
+            <a onclick="" href="javascript:void(0)" data-callLang="ar" style="color: #fff;">عربى</a>
+            <a onclick="" href="javascript:void(0)" data-callLang="eng" class="actv" style="color: #fff;">ENGLISH</a>
+            <!-- <a href="Impressum.html" style="color: #fff;">Impressum </a> -->
+        </ul>
+    </div>
     <!-- Start dreamit Main Menu Area -->
     <!--==================================================-->
     <div id="sticky-header" class="dreamit_nav_manu">
@@ -55,28 +69,31 @@
                 <div class="col-lg-3">
                     <div class="logo">
                         <a class="logo_img" href="index.html" title="dreamit">
-                            <img src="assets/images/logo-j-modified.png" alt="" style="width: 60px;" />
+                            <img src="assets/images/logo-j-modified - Copy (2).png" alt="" style="width: 60px;" />
                         </a>
                         <a class="main_sticky" href="index.html" title="dreamit">
-                            <img src="assets/images/logo-j-modified.png" alt="astute" style="width: 60px;" />
+                            <img src="assets/images/logo-j-modified - Copy (2).png" alt="astute" style="width: 60px;" />
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-9">
                     <nav class="dreamit_menu">
                         <ul class="nav_scroll">
-                            <li><a href="#delivery-service">Find a service <span><i class=""></i></span></a>
+                            <li><a href="index.html#our-services" data-language="findservice">Find a service<span><i
+                                            class=""></i></span></a>
 
                             </li>
-                            <li><a href="index.html#howitworks">Job Opportunity</a></li>
+                            <li><a href="index.html#howitworks" data-language="jobs">Job Opportunity</a></li>
 
-                            <li><a href="contact-us.html">Contact us <span><i class="fas fa-angle-down"></i></span></a>
+                            <li><a href="contact-us.html" data-language="contact">Contact us <span><i
+                                            class="fas fa-angle-down"></i></span></a>
                             </li>
                             <!-- <li><a href="">Career <span><i class="fas fa-angle-down"></i></span></a> -->
                             </li>
                         </ul>
                         <div class="header-button">
-                            <a class="dtbtn" href="register.html" style="background: #fc9615;">Login</a>
+                            <a class="dtbtn" href="register.html" style="background: #fc9615;"
+                                data-language="login">Login</a>
                         </div>
                     </nav>
                 </div>
@@ -86,14 +103,16 @@
     <!-- dreamit Mobile Menu Area -->
     <div class="mobile-menu-area d-sm-block d-md-block d-lg-none ">
         <div class="mobile-menu">
-            <nav class="dreamit_menu">
+            <nav class="">
                 <ul class="nav_scroll">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#delivery-service">Find a service <span><i class=""></i></span></a>
+                    <li><a href="index.html" data-language="mobilehome">Home</a></li>
+                    <li><a href="index.html#our-services" data-language="mobileservice">Find a service <span><i
+                                    class=""></i></span></a>
                     </li>
-                    <li><a href="index.html#howitworks">Job Opportunity</a></li>
+                    <li><a href="index.html#howitworks" data-language="mobilejobs">Job Opportunity</a></li>
 
-                    <li><a href="contact-us.html">Contact us <span><i class=""></i></span></a>
+                    <li><a href="contact-us.html" data-language="mobilecontact">Contact us <span><i
+                                    class=""></i></span></a>
                     </li>
                     </li>
                 </ul>
@@ -107,31 +126,33 @@
     <!--==================================================-->
     <!-- start	dreamit slider Area -->
     <!--==================================================-->
-<!--==================================================-->
-<!-- start	dreamit slider Area -->
-<!--==================================================-->
-<div class="breatcumb-area d-flex align-items-center">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="breatcumb-content text-center">
-                    <div class="breatcumb-title">
-                        <h2>Service</h2>
-                    </div>
-                    <div class="breatcumb-content-text">
-                        <ul>
-                            <li><a href="index.html" style="color: #fff;">home</a> <i class="fas fa-angle-right"></i> <span>Our Service</span>
-                            </li>
-                        </ul>
+    <!--==================================================-->
+    <!-- start	dreamit slider Area -->
+    <!--==================================================-->
+    <div class="breatcumb-area d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breatcumb-content text-center">
+                        <div class="breatcumb-title">
+                            <h2 data-language="service">Service</h2>
+                        </div>
+                        <div class="breatcumb-content-text">
+                            <ul>
+                                <li><a href="index.html" style="color: #fff;" data-language="home">home</a> <i
+                                        class="fas fa-angle-right"></i> <span data-language="ourservice">Our
+                                        Service</span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--==================================================-->
-<!-- End	dreamit slider Area -->
-<!--==================================================-->
+    <!--==================================================-->
+    <!-- End	dreamit slider Area -->
+    <!--==================================================-->
     <!--==================================================-->
     <!-- End	dreamit slider Area -->
     <!--==================================================-->
@@ -146,7 +167,7 @@
                     <div class="widget-service-box">
                         <div class="widget-service-menu">
                             <ul>
-                                <li><a class="current" href="">Logistics and Delivery <i
+                                <li><a class="current" href="" data-language="logisdropdown">Logistics and Delivery<i
                                             class="fas fa-angle-right"></i></a>
                                 </li>
                                 <!-- <li><a href="">Plumbing Services <i
@@ -168,9 +189,9 @@
                     <div class="widget-service-thumb-detials pl-3">
                         <!-- <img src="assets/images/project/img.jpg" alt="" width="400vw" height="400vh"> -->
                         <div class="elementor-widget-title1">
-                            <h2>Logistics and Delivery</h2>
-                            <p>We provide logistics services where we deliver to all our customers in any location
-                                across the country.</p>
+                            <h2 data-language="logistitle">Logistics and Delivery</h2>
+                            <p data-language="logissubtitle">We provide logistics services where we deliver to all our
+                                customers in any location across the country.</p>
                         </div>
                     </div>
                     <div class="row">
@@ -181,8 +202,8 @@
                                 </div>
                                 <div class="why-choose-us-content3">
                                     <div class="why-choose-us-title3">
-                                        <h2>Mission</h2>
-                                        <p>
+                                        <h2 data-language="mission">Mission</h2>
+                                        <p data-language="logisdisc">
                                             Our goal is to be the best delivery partner you can always trust anytime &
                                             every time. That is, by ensuring we provide
                                             an effective, efficient, and well-organized service uniquely tailored to
@@ -199,29 +220,31 @@
                                 </div>
                                 <div class="why-choose-us-content3">
                                     <div class="why-choose-us-title3">
-                                        <h2>What to expect?
+                                        <h2 data-language="expect">What to expect?
                                         </h2>
-                                        <p>- 24/7 technical support</p>
-                                        <p>- Universal supply chain solutions that help reduce cost and minimize risks
+                                        <p data-language="logissupport">- 24/7 technical support</p>
+                                        <p data-language="logisuniversal">- Universal supply chain solutions that help
+                                            reduce cost and minimize risks
                                         </p>
-                                        <p>- Smart and responsive solutions for tracking your shipments from drop-off to
+                                        <p data-language="logisres">- Smart and responsive solutions for tracking your
+                                            shipments from drop-off to
                                             final delivery</p>
-                                        <p>- Proper packaging and preservative measures to ensure the quality of your
-                                            shipments</p>
+                                        <p data-language="logispac">- Proper packaging and preservative measures to
+                                            ensure the quality of your shipments</p>
                                     </div>
                                 </div>
-                                
+
                             </div>
-                            
+
                         </div>
                         <div class="slider-button">
-                            <a href="register.html">Request a delivery service Now</a>
+                            <a href="register.html" data-language="servresserv">Request a delivery service Now</a>
                         </div>
                     </div>
 
                 </div>
             </div>
-                        
+
         </div>
     </div>
     <!--==================================================-->
@@ -234,7 +257,8 @@
                     <div class="widget-service-box">
                         <div class="widget-service-menu">
                             <ul>
-                                <li><a class="current" href="">Security Services<i class="fas fa-angle-right"></i></a>
+                                <li><a class="current" href="" data-language="secdropdown">Security Services<i
+                                            class="fas fa-angle-right"></i></a>
                                 </li>
                                 <!-- <li><a href="">Plumbing Services <i
                                             class="fas fa-angle-right"></i></a></li>
@@ -246,8 +270,7 @@
                         </div>
                     </div>
                     <div class="widget-service-thumb">
-                        <img src="assets/images/services/cctv.jpg" alt=""
-                            height="400vh">
+                        <img src="assets/images/services/cctv.jpg" alt="" height="400vh">
                     </div>
 
                 </div>
@@ -255,14 +278,12 @@
                     <div class="widget-service-thumb-detials pl-3">
                         <!-- <img src="assets/images/project/img.jpg" alt="" width="400vw" height="400vh"> -->
                         <div class="elementor-widget-title1">
-                            <h2>Security Services</h2>
-                            <p>The security of your business is a key concern for us. We work to meet our client's needs
-                                both at the local and
-                                international levels with superior services.</p>
-                            <p>Making your number one priority ours.
-                                We understand that every brand and human requires quality and consistent security
-                                services
-                            </p>
+                            <h2 data-language="sectitle">Security Services</h2>
+                            <p data-language="secsubtitle">The security of your business is a key concern for us. We
+                                work to meet our client's needs both at the local andinternational levels with superior
+                                services.</p>
+                            <p data-language="secdesc">Making your number one priority ours. We understand that every
+                                brand and human requires quality and consistent security services</p>
 
                         </div>
                     </div>
@@ -274,13 +295,11 @@
                                 </div>
                                 <div class="why-choose-us-content3">
                                     <div class="why-choose-us-title3">
-                                        <h2>Mission</h2>
-                                        <p>We provide the best service to guarantee you with the top security for you
-                                            and your
-                                            properties to actualize your
+                                        <h2 data-language="mission">Mission</h2>
+                                        <p data-language="secweprov">We provide the best service to guarantee you with the
+                                            top security for you and your properties to actualize your
                                             mission, priorities, action plans, performance targets, and aspirations, our
-                                            sentries
-                                            are carefully selected.</p>
+                                            sentries are carefully selected.</p>
                                     </div>
                                 </div>
                             </div>
@@ -292,21 +311,22 @@
                                 </div>
                                 <div class="why-choose-us-content3">
                                     <div class="why-choose-us-title3">
-                                        <h2>What to expect?
+                                        <h2 data-language="expect">What to expect?
                                         </h2>
-                                        <p>- Quality of our services and commitment of our workforce
+                                        <p data-language="secquality">- Quality of our services and commitment of our
+                                            workforce
                                         </p>
-                                        <p>- Well-trained and dedicated officers
+                                        <p data-language="secoff">- Well-trained and dedicated officers
                                         </p>
-                                        <p>- Consulting and provision of solutions for organizations with security
-                                            challenges
+                                        <p data-language="seccon">- Consulting and provision of solutions for
+                                            organizations with security challenges
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="slider-button ">
-                            <a href="register.html">Request a security service Now</a>
+                            <a href="register.html" data-language="servressec">Request a security service Now</a>
                         </div>
                     </div>
 
@@ -323,7 +343,7 @@
                     <div class="widget-service-box">
                         <div class="widget-service-menu">
                             <ul>
-                                <li><a class="current" href="">Cleaning Services
+                                <li><a class="current" href="" data-language="cleandropdown">Cleaning Services
                                         <i class="fas fa-angle-right"></i></a>
                                 </li>
                                 <!-- <li><a href="">Plumbing Services <i
@@ -336,8 +356,7 @@
                         </div>
                     </div>
                     <div class="widget-service-thumb">
-                        <img src="assets/images/services/cleaning.jpg" alt=""
-                            height="400vh">
+                        <img src="assets/images/services/cleaning.jpg" alt="" height="400vh">
                     </div>
 
                 </div>
@@ -345,14 +364,12 @@
                     <div class="widget-service-thumb-detials pl-3">
                         <!-- <img src="assets/images/project/img.jpg" alt="" width="400vw" height="400vh"> -->
                         <div class="elementor-widget-title1">
-                            <h2>Cleaning Services
+                            <h2 data-language="cleantitle">Cleaning Services
                             </h2>
-                            <p>We all know how important it is to keep every house clean and organized and the
-                                significant role it plays in our daily
-                                healthy living
-                                So, let's help you to constantly stay happy and always in a good state of mind by making
-                                sure your environment is
-                                continually in the most perfect condition.
+                            <p data-language="cleansubtitle">We all know how important it is to keep every house clean
+                                and organized and the significant role it plays in our daily
+                                healthy living So, let's help you to constantly stay happy and always in a good state of
+                                mind by making sure your environment is continually in the most perfect condition.
                             </p>
                         </div>
                     </div>
@@ -364,11 +381,10 @@
                                 </div>
                                 <div class="why-choose-us-content3">
                                     <div class="why-choose-us-title3">
-                                        <h2>Mission</h2>
-                                        <p>
+                                        <h2 data-language="mission">Mission</h2>
+                                        <p data-language="cleanhelp">
                                             To help create an enabling environment for visitors and clients, and
-                                            maintain a productive environment for your staff
-                                            .
+                                            maintain a productive environment for your staff.                                            
                                         </p>
                                     </div>
                                 </div>
@@ -381,20 +397,20 @@
                                 </div>
                                 <div class="why-choose-us-content3">
                                     <div class="why-choose-us-title3">
-                                        <h2>What to expect?
+                                        <h2 data-language="expect">What to expect?
                                         </h2>
-                                        <p>- High standards and great attention to detail</p>
-                                        <p>- Professional yet very personable approach
+                                        <p data-language="cleanstand">- High standards and great attention to detail</p>
+                                        <p data-language="cleanprof">- Professional yet very personable approach
                                         </p>
-                                        <p>- Very knowledgeable and equipped personnel</p>
-                                        <p>- Full responsibility & accountability for the work we do
+                                        <p data-language="cleanknow">- Very knowledgeable and equipped personnel</p>
+                                        <p data-language="cleanfull">- Full responsibility & accountability for the work we do
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="slider-button ">
-                            <a href="register.html">Request cleaning service Now</a>
+                            <a href="register.html" data-language="servresclean">Request cleaning service Now</a>
                         </div>
                     </div>
 
@@ -402,7 +418,6 @@
             </div>
         </div>
     </div>
-    <!--==================================================-->
     <!-- Start dreamit Footer Middle Area -->
     <!--==================================================-->
     <div class="footer-middle style_two pt-80 pb-3">
@@ -412,51 +427,52 @@
                     <div class="widget widgets-company-info">
                         <div class="dreamit-logo">
                             <a class="logo_img" href="index.html" title="dreamit">
-                                <img src="assets/images/logo-j-modified.png" alt=""
+                                <img src="assets/images/logo-j-modified - Copy (2).png" alt=""
                                     style="border-radius:50%; width: 80px; height: 80px;" />
                             </a>
                         </div>
                         <div class="company-info-desc pr-2">
-                            <p>The best way to find or offer a service. </p>
-                            <p> Sign up in just 2 minutes and get instant job offers!</p>
+                            <p data-language="footerbest">The best way to find or offer a service. </p>
+                            <p data-language="footersignup"> Sign up in just 2 minutes and get instant job offers!</p>
                         </div>
                         <div class="company_icon">
                             <!-- <a class="facebook" href=""><i class="fab fa-facebook-f"></i></a> -->
-                            <a class="instagram" href="https://instagram.com/jouha_gmbh?igshid=YmMyMTA2M2Y="><i
-                                    class="fab fa-instagram"></i></a>
+                            <a class="instagram" href="https://instagram.com/jouha_gmbh?igshid=YmMyMTA2M2Y="
+                                target="_blank"><i class="fab fa-instagram"></i></a>
                             <!-- <a class="pinterest" href=""><i class="fab fa-pinterest-p"></i></a> -->
-                            <a class="twitter" href="tel:49-176-83341056"><i class="fab fa-whatsapp"></i></a>
+                            <a class="twitter" href="tel:49-176-83341056" target="_blank"><i
+                                    class="fab fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="widget widget-nav-menu pl-2">
-                        <h4 class="widget-title">Pages</h4>
+                        <h4 class="widget-title" data-language="pages">Pages</h4>
                         <div class="menu-quick-link-content">
                             <ul class="menu">
-                                <li><a href="">Find a Service</a></li>
-                                <li><a href="">Job Opportunity</a></li>
-                                <li><a href="">Contact us</a></li>
-                                <li><a href="">Career</a></li>
-                                <li><a href="">About us</a></li>
-                                <li><a href="">Impressum</a></li>
-    
+                                <li><a href="" data-language="findservice">Find a Service</a></li>
+                                <li><a href="" data-language="footeroppor">Job Opportunity</a></li>
+                                <li><a href="" data-language="footercontact">Contact us</a></li>
+                                <!-- <li><a href="" data-language="footercareer">Career</a></li> -->
+                                <!-- <li><a href="" data-language="footerabout">About us</a></li> -->
+                                <!-- <li><a href="" data-language="footerimpr">Impressum</a></li> -->
+
                             </ul>
                         </div>
                     </div>
                 </div>
-    
+
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div id="footer-widget-address">
                         <div class="footer-widget-address-inner">
-                            <h4 class="widget-title">Quick Contact</h4>
+                            <h4 class="widget-title" data-language="quickcon">Quick Contact</h4>
                             <div class="footer-inner pr-2">
                                 <div class="footer-socail-icon">
                                     <i class="fa fa-home"></i>
                                 </div>
                                 <div class="footer-socail-info">
                                     <p>
-                                        <span>Address:</span>
+                                        <span data-language="footeraddress">Address:</span>
                                         <br>Am Sonnenbrunnen 16, 42327 Wuppertal.
                                     </p>
                                 </div>
@@ -467,7 +483,7 @@
                                 </div>
                                 <div class="footer-socail-info">
                                     <p>
-                                        <span>Phone:</span>
+                                        <span data-language="footerphone">Phone:</span>
                                         <br>+49 176 83341056
                                     </p>
                                 </div>
@@ -478,7 +494,7 @@
                                 </div>
                                 <div class="footer-socail-info">
                                     <p>
-                                        <span>Email:</span>
+                                        <span data-language="footeremail">Email:</span>
                                         <br>Info@jouhagmbh.de
                                     </p>
                                 </div>
@@ -490,18 +506,19 @@
             <div class="row footer-bottom mt-50">
                 <div class="col-lg-12 col-md-6" ">
     					<div class=" footer-bottom-content">
-                    <div class="footer-bottom-content-copy" style="margin: 0 30%;">
-                        <p>© Copyright powered by Jouha</p>
+                    <div class="footer-bottom-content-copy" style="margin: 0 40%;">
+                        <p data-language="footercopyright">© Copyright powered by Jouha</p>
                     </div>
                 </div>
             </div>
-    
+
             <!-- <div class="col-lg-6">
     
     				</div> -->
         </div>
     </div>
     </div>
+
     <!--==================================================-->
     <!-- End dreamit Footer Middle Area -->
     <!--==================================================-->
@@ -575,6 +592,8 @@
     <script src="assets/js/jquery.scrollUp.js"></script>
     <!-- theme js -->
     <script src="assets/js/theme.js"></script>
+
+    <script src="service_lang.js"></script>
     <!--jave script -->
     <script>
         $(window).on('scroll', function () {

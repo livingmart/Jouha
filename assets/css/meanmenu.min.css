@@ -3,7 +3,7 @@ a.meanmenu-reveal {
 }
 .mean-container .mean-bar {
 	background: #fc9615;
-  background: #001d57;
+	background: #001d57;
 	float: left;
 	min-height: 60px;
 	padding: 4px 0 0;
@@ -100,7 +100,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li a:hover {
 	background: #f8f8f8 none repeat scroll 0 0;
 	/* color: #f47e1e; */
-  color: #fff;
+	color: #fff;
 }
 .mean-container .mean-nav ul li a.mean-expand {
 	width: 26px;
@@ -169,7 +169,7 @@ a.meanmenu-reveal {
 .mean-container .mean-nav ul li a {
 	background: #fff;
 	color: #030749;
-  /* color: #fff; */
+	/* color: #fff; */
 	display: block;
 }
 .mean-container .mean-nav ul li a.mean-expand {
@@ -206,9 +206,9 @@ a.meanmenu-reveal {
 	top: 18px;
 } */
 
-.mean-container .mean-bar::before {
+.mean-container .mean-bar::before {	
 	position: absolute;
 	content: url(/assets/images/rsz_2_5.png);
-	top: 12px;
-  left: 10px;
+	top: 8px;
+	left: 10px;
 }
