@@ -8,7 +8,7 @@ var language = {
 		mobileservice: "ابحث عن خدمة",
 		mobilejobs: "فرصة عمل",
 		mobilecontact: "اتصل بنا",
-		herotext: "جوها في التوصيل أو خدمات دعم الرعاية أو الأمان فكر في جحا.",
+		herotext: "هل تفكر فى خدمات التوصيل و الامان و الدعم و الرعايه فكر في جوها",
 		heroregister: "قدم الآن",
 		herolmore: "يتعلم أكثر",
 		simple: "بسيط وسريع",
