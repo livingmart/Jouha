@@ -101,12 +101,13 @@ Version: 0.1
 	position: relative;
 }
 .lang {
-	height: 10vh;
+	height: 9vh;
 	margin-left: 0px;
 	position: fixed;
-	top: 90%;
+	top: 91%;
 	color: #fff;
 	background: #030749;
+	font-size: 13px;
 }
 .contact-form {
 	width: 60%;
@@ -1622,6 +1623,7 @@ a.slider-button2:hover:after {
 ======================================================*/
 .service-area {
 	background: url(assets/images/resource/service.jpg);
+	/* background: #fff; */
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -1635,7 +1637,7 @@ a.slider-button2:hover:after {
 	z-index: -1;
 	height: 100%;
 	width: 100%;
-	background-image: linear-gradient(180deg, #0b2653 0%, #fc9615 100%);
+	/* background-image: linear-gradient(180deg, #0b2653 0%, #fc9615 100%); */
 	top: 0;
 	left: 0;
 	opacity: 0.9;
