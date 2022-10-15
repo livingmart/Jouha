@@ -8,7 +8,7 @@ var language = {
 		mobileservice: "ابحث عن خدمة",
 		mobilejobs: "فرصة عمل",
 		mobilecontact: "اتصل بنا",
-		herotext: "فكر في التوصيل أو خدمات دعم الرعاية أو الأمان؟ فكر في جحا",
+		herotext: "فكر في التوصيل أو خدمات دعم الرعاية أو الأمان فكر في جحا.",
 		heroregister: "قدم الآن",
 		herolmore: "يتعلم أكثر",
 		simple: "بسيط وسريع",
@@ -24,7 +24,8 @@ var language = {
 			"تسجيل واحد - عروض عمل غير محدودة. نحن نطابقك فقط مع الشركات المناسبة متطلباتك",
 		findajob: "ابحث عن عمل الآن!",
 		aboutlmore: "يتعلم أكثر",
-		servicetitle: "فكر في التوصيل أو خدمات دعم الرعاية أو الأمان؟ فكر في جحا.",
+		servicetitle:
+			"التنظيف ، دعم الرعاية ، التسليم ، أو خدمات الأمن؟ اختر Jouha.",
 		servicedesc:
 			"نحن منظمة تستعد لمساعدتك في الحصول على عملك يتم بوتيرة أسرع ، نحن نوفر أيضًا فرص عمل ذات صلة ووظيفة بدوام كامل ونحن موجودون في أكثر من ذلك عشرات المدن في جميع أنحاء ألمانيا مع شبكة متزايدة من الشركاء الموثوق بهم.",
 		servicecleaning: "خدمات التنظيف",
@@ -108,7 +109,7 @@ var language = {
 		mobilejobs: "Stellenangebot",
 		mobilecontact: "Kontaktiere uns",
 		herotext:
-			"Denken Sie an Lieferung, Pflegeunterstützungsdienste oder Sicherheit? Denken Sie an Joha.",
+			"Denken Sie an Lieferung, Pflegeunterstützungsdienste oder Sicherheit? Denken Sie an Jouha.",
 		heroregister: "Jetzt bewerben",
 		herolmore: "Mehr erfahren",
 		simple: "EINFACH UND SCHNELL",
@@ -125,7 +126,7 @@ var language = {
 		findajob: "Bewerben Sie sich jetzt für einen Job!",
 		aboutlmore: "Mehr erfahren",
 		servicetitle:
-			"Denken Sie an Lieferung, Reinigung, Pflegedienste oder Sicherheit? Denken Sie an Joha.",
+			"Reinigung, Pflegeunterstützung, Lieferung oder Sicherheitsdienste? Wählen Sie Jouha.",
 		servicedesc:
 			"Wir sind eine Organisation, die darauf ausgerichtet ist, Ihnen dabei zu helfen, Ihre Arbeit schneller zu erledigen. Wir bieten auch relevante Beschäftigungsmöglichkeiten und Vollzeitstellen und sind in über einem Dutzend Städten in ganz Deutschland mit einem ständig wachsenden Netzwerk vertrauenswürdiger Partner präsent.",
 		servicecleaning: "Reinigungsdienste",
